@@ -1,0 +1,107 @@
+.Token_div{
+    /* background-color: rgb(20,56,123); */
+    color: white;
+    font-family: Comfortaa,Roboto,'Helvetica Neue',Arial,sans-serif;
+    align-items: center;
+    padding-top: 0rem;
+    padding-bottom: 4rem;
+    width: 100%;
+}
+
+.Token_sub-title {
+    font-size: 6.5rem !important;
+    opacity: 0.05 !important;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 200;
+    left: 50%;
+    
+}
+
+.espan{
+    opacity: 1;
+}
+
+.Token_title {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-align: center;    
+    margin-top: -8rem;
+}
+
+.Token_para{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+}
+
+
+.Token_pera_garaph{
+    opacity: .6;
+    padding-top: 1rem;
+}
+
+
+.symbol{
+    opacity: .5;
+    margin-top: 3rem !important;
+}
+
+.espan{
+    opacity: 1;
+    margin-top: 3rem !important;
+}
+
+@media screen and (max-width:480px) {
+
+    
+    .Token_sub-title{
+        font-size: 5rem !important;
+        opacity: 0 !important;
+    }
+
+    .Token_img img{
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .Token_pera_garaph{
+        font-size: 1rem;
+        margin-top: 0rem;
+    }
+
+    .Token_title { 
+        margin-top: -15rem;
+    }
+
+    .Token_four{
+        margin-top: -6rem;
+    }
+    
+}
+
+
+@media (min-width:480px) and (max-width:800px) {
+
+    .Token_sub-title{
+        font-size: 5rem !important;
+    }
+
+    .Token_title { 
+        margin-top: -6.5rem;
+        font-size: 2rem;
+    }
+
+    .Token_four{
+        margin-top: -6rem;
+    }
+
+    .Token_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    
+}

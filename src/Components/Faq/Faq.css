@@ -1,0 +1,40 @@
+
+.faq_div{
+    /* background-color: rgb(20,25,74); */
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    /* color: white; */
+}
+
+.faq_sub-title {
+    font-size: 6.5rem !important;
+    opacity: 0.05 !important;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 400;
+    left: 50%;
+    color: white;
+}
+
+
+.faq_title {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-align: center;    
+    margin-top: -7.4rem;
+}
+
+.faq_para{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+    color: white;
+}
+
+
+/* .Token_pera_garaph{
+    opacity: .6;
+    padding-top: 1rem;
+} */
+

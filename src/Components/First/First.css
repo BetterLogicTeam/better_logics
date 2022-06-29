@@ -1,0 +1,48 @@
+.first_div{
+    /* background-color: rgb(20,14,56); */
+    color: white;
+    font-family: Comfortaa,Roboto,'Helvetica Neue',Arial,sans-serif;
+    width: 100%;
+    padding-top: 7rem;
+}
+
+.heading{
+    padding-top: 4rem;
+    padding-bottom: 9rem;
+}
+
+.three{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.btttn a{
+    margin-right: 3rem;
+    padding: .7rem 2rem .7rem 2rem;
+    color: white !important;
+}
+
+@media screen and (max-width:480px) {
+    
+
+    .first_div{
+        padding-bottom: 0rem;
+    }
+
+    .heading h2{
+        padding-top: -1rem;
+        padding-bottom: 0rem;
+        font-size: 1.6rem;
+    }
+    
+    .three h5{
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        font-size: 1.2rem;
+    }
+
+    .btttn a{
+        margin-bottom: 2rem;
+        align-items: center;
+    }
+}

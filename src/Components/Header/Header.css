@@ -1,0 +1,45 @@
+.btn{
+    background-image: linear-gradient(40deg, #BF68E6 20%, #9E48CD 51%, #BF68E6 90%);
+    box-shadow: 0 0 12px 0 #9e48cd;
+    border: none;
+    transition: 0.5s;
+}
+
+.nav{
+    background-color: rgb(25,64,137);
+    width: 100%;
+    color: white !important;
+    position: fixed;
+    top: 0;
+}
+
+.nav_link{
+    padding-left:12rem;
+    color: white !important;
+}
+
+.hxn{
+    margin-left: 1rem;
+    color: #fff !important;
+    padding-top: 0px !important;
+}
+
+.bn_hxn{
+    margin-left: 1rem;
+}
+
+@media screen and (max-width:480px) {
+
+    .nav img{
+        padding-left: 0rem;
+        width: 20%;
+    }
+
+    .nav_link{
+        padding-left:1rem;
+    }
+
+    .nav{
+        width: 87%;
+    }
+}

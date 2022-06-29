@@ -1,0 +1,429 @@
+
+
+:root {
+    --dark: #333;
+    --highlight: #ff6666;
+    --light: #f6f6f6;
+  }
+  
+
+  
+  .scroll-toggle {
+    /* align-items: center; */
+    background-color: transparent;
+  
+    /* display: flex; */
+    max-width: 100%;
+    /* justify-content: center; */
+    width: 120%;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .scroll-toggle::-webkit-scrollbar {
+      display: none; 
+      /* for Chrome, Safari, and Opera */
+    }
+.scroll-toggle__list::-webkit-scrollbar {
+    display: none; 
+    /* for Chrome, Safari, and Opera */
+  }
+    
+  .scroll-toggle__button {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+
+   
+    flex: 0 0 100px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    transition: all 0.1s ease;
+  }
+  .scroll-toggle__button:active, .scroll-toggle__button:hover {
+    background-color: transparent;
+  }
+
+  .scroll-toggle__list {
+    /* border-left: 2px solid var(--dark);
+    border-right: 2px solid var(--dark); */
+    display: flex;
+    flex: 1 1 auto;
+    overflow-x: scroll;
+
+    
+  }
+  .scroll-toggle__list-item {
+    flex: 0 0 auto;
+    padding: 10px;
+    
+    
+  }
+
+  
+  .react-horizontal-scrolling-menu--scroll-container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+
+.nk-block {
+    display: block;
+    width: auto;
+    position: relative;
+    z-index: 1;
+    /* overflow: hidden !important; */
+    /* overflow-x: hidden; */
+
+}
+.tc-base-white, .tc-light, .tc-light a:not(.btn):not([class*="link-"]) {
+    color: #97afd5;
+}
+
+@media (min-width: 576px){
+.roadmap-wrap-ovl-right {
+    max-width: none;
+    margin-right: -200px;
+}
+}
+
+.roadmap-wrap {
+    position: relative;
+    padding: 40px 0 10px;
+    margin-bottom: 40px;
+    /* max-width: 430px; */
+    margin-left: auto;
+    overflow: hidden !important;
+
+    /* margin-right: auto; */
+}
+
+.roadmap-wrap:before, .roadmap-wrap:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    z-index: 7;
+}
+.tc-light .roadmap-line-s2 {
+    /* background: #5b77a3; */
+}
+
+.roadmap-line-s2 {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #dbe4f7;
+    content: '';
+    top: 95px;
+    border-radius: 2px;
+    left: 0;
+}
+
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+.roadmap-slider {
+    position: relative;
+}
+
+.owl-carousel {
+    /* display: none; */
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    /* position: relative; */
+    z-index: 1;
+}
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+
+.owl-carousel .owl-stage {
+    position: relative;
+ 
+    touch-action: manipulation;
+width: 2075px;
+   
+}
+
+
+
+.owl-carousel.owl-drag .owl-item {
+touch-action: pan-y;
+
+user-select: none;
+width: 297.333px;
+margin-right: -1px;
+}
+
+.owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    /* -webkit-backface-visibility: hidden; */
+    /* -webkit-tap-highlight-color: transparent; */
+  
+}
+
+.roadmap-s2 {
+    text-align: center;
+}
+
+.roadmap {
+    position: relative;
+    z-index: 10;
+    padding-bottom: 30px;
+}
+
+.roadmap-s2.roadmap-finished:before {
+    width: 100%;
+}
+
+.tc-light .roadmap-s2:before {
+    background-color: #f42f54 !important;
+}
+.roadmap-s2:before {
+    width: 0;
+    height: 4px;
+    background: #f42f54;
+    left: 0;
+    top: 55px;
+}
+.roadmap-s2:before, .roadmap-s2:after {
+    position: absolute;
+    content: '';
+    transition: width .3s;
+}
+
+.tc-light h1, .tc-light h2, .tc-light h3, .tc-light h4, .tc-light h5, .tc-light h6, .tc-light .h1, .tc-light .h2, .tc-light .h3, .tc-light .h4, .tc-light .h5, .tc-light .h6 {
+    color: #fff;
+}
+.roadmap-year-s2 {
+    padding-bottom: 65px;
+}
+h6, .h6, .fz-6 {
+    font-size: 0.94rem;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    /* color: #202b47; */
+    color: #fff;
+
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.45;
+    margin-bottom: 0.5rem;
+}
+.roadmap-text {
+    max-width: 265px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #97afd5 !important;
+
+    
+
+
+}
+.tc-light .roadmap-s2.roadmap-finished:after, .tc-light .roadmap-s2.roadmap-running:after {
+    background: #f42f54 !important;
+    border-color: #fff;
+}
+
+.roadmap-s2.roadmap-finished:after, .roadmap-s2.roadmap-running:after {
+    background: #f42f54 !important;
+    border: 2px solid #fff;
+}
+
+.roadmap-s2:after {
+    left: 50%;
+    top: 49px;
+    transform: translateX(-50%);
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    /* border: 3px solid #dbe4f7; */
+    /* background: #fff; */
+}
+.roadmap-s2:before, .roadmap-s2:after {
+    position: absolute;
+    content: '';
+    transition: width .3s;
+}
+
+.tc-light p, .tc-light .list {
+    color: #97afd5 !important;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+.roadmap-s2.roadmap-running:before {
+    width: 50%;
+}
+
+.tc-light .roadmap-s2:before {
+    background: #f42f54;
+}
+.roadmap-s2:before {
+    /* width: 0; */
+    height: 4px;
+    /* background: #f42f54; */
+    left: 0;
+    top: 55px;
+}
+
+.tc-light .roadmap-s2:after {
+    border-color: #5b77a3;
+    background: #0f1932;
+}
+.roadmap-s2:after {
+    left: 50%;
+    top: 49px;
+    transform: translateX(-50%);
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    /* border: 3px solid #dbe4f7; */
+    /* background: #fff; */
+}
+
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    background: none;
+    color: inherit;
+    /* border: none; */
+    padding: 0 !important;
+    font: inherit;
+}
+
+.owl-nav button {
+    border: 1px solid #97afd5 !important;
+    border-radius: 50% !important;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    transition: all .4s;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, input {
+    overflow: visible;
+}
+
+.owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-dot {
+    cursor: pointer;
+    /* -webkit-user-select: none; */
+  
+    user-select: none;
+}
+
+.owl-nav button:after {
+    font-family: 'FontAwesome' !important;
+    color: #97afd5;
+
+    font-size: 1rem;
+}
+
+.owl-prev:after {
+    content: '\f053';
+}
+
+.owl-nav button:after {
+    /* font-family: "themify"; */
+    font-size: 1.5rem;
+    color: #97afd5;
+
+        font-family: 'FontAwesome' !important;
+}
+
+.owl-next:after {
+    content: '\f054';
+}
+
+
+.tc-light .roadmap-s2:before {
+    background: #f42f54;
+}
+.roadmap-s2:before {
+    width: 0;
+    height: 4px;
+    /* background: #f42f54; */
+    left: 0;
+    top: 55px;
+}
+.roadmap-s2:before, .roadmap-s2:after {
+    position: absolute;
+    content: '';
+    transition: width .3s;
+    background: #f42f54;
+
+}
+
+.tc-light .roadmap-s2:after {
+    border-color: #5b77a3;
+    background: #0f1932;
+}
+.roadmap-s2:after {
+    left: 50%;
+    top: 49px;
+    transform: translateX(-50%);
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 3px solid #dbe4f7;
+    /* background: #fff; */
+}
+.roadmap-s2:before, .roadmap-s2:after {
+    position: absolute;
+    content: '';
+    transition: width .3s;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    touch-action: pan-y;
+   
+    user-select: none;
+}
+
+.owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    /* -webkit-backface-visibility: hidden; */
+    /* -webkit-tap-highlight-color: transparent; */
+    -webkit-touch-callout: none;
+}
+
+.roadmap-s2 {
+    text-align: center;
+}
+
+.roadmap {
+    position: relative;
+    z-index: 10;
+    padding-bottom: 30px;
+}
+
+
+@media (min-width:480px) and (max-width:768px) {
+.Boardmemberhere{
+    margin-top: 20rem !important;
+}
+}
+  

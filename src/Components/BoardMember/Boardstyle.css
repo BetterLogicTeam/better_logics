@@ -1,0 +1,98 @@
+
+
+.newstylehere:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    height: 100%;
+    width: 70%;
+    background: rgba(244,47,84,0.4);
+    border-radius: 6px;
+    z-index: 1;
+}
+
+
+.topinrow{
+    margin-top: 5rem !important;
+}
+
+.firstdivrowher{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center !important;
+    /* margin-left: 2rem; */
+    /* border: 1px solid red; */
+}
+
+
+.Boardmemberhere{
+    margin-top: 5rem !important;
+}
+
+.divheretop:hover{
+ margin-top: -5rem;
+}
+
+.newstylehere:hover{
+    margin-top: -1rem !important;
+}
+
+
+@media (min-width:280px) and (max-width:480px) {
+
+    
+.newstylehere:after {
+    position: absolute;
+    left: 0rem !important;
+    top: 0;
+    content: '';
+    height: 100%;
+    width: 70%;
+    /* background: rgba(244,47,84,0.4); */
+    border-radius: 6px;
+    z-index: 1;
+    display: none;
+}
+
+.Boardmemberhere{
+    margin-top: 2rem !important;
+}
+.mttopclass{
+    margin-top: 0rem !important;
+    width: 50rem !important;
+    /* border:  solid 1px red; */
+}
+.maincllresp{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+  
+    /* margin-left: 1.5rem; */
+}
+
+.iconsocialmediamembere li a{
+    font-size: 18px;
+        height: auto;
+        width: auto;
+        margin-left: 1rem;
+}
+
+
+    
+}
+
+
+
+@media (min-width:280px) and (max-width:768px) {
+
+    .firstdivrowher{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center !important;
+        margin-left: 2rem;
+        /* border: 1px solid red; */
+    }
+
+
+}

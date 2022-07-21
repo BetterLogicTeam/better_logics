@@ -3,7 +3,7 @@ import Crypto from './Crypto/Crypto'
 
 function Crypto_main() {
   return (
-    <div>
+    <div style={{marginTop: "90px"}}>
       <Crypto />
     </div>
   )

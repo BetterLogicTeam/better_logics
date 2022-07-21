@@ -3,6 +3,7 @@
     /* background-color: rgb(20,25,74); */
     padding-top: 5rem;
     padding-bottom: 10rem;
+    width: 100%;
     /* color: white; */
 }
 
@@ -38,3 +39,19 @@
     padding-top: 1rem;
 } */
 
+@media screen and (max-width:480px) {
+    .faq_sub-title {
+        font-size: 0rem !important;
+        opacity: 0 !important;
+        text-align: center;
+        font-weight: 0;
+    }
+
+    .faq_div{
+        width: auto;
+    }
+
+    .faq_title{
+        margin-top: auto;
+    }
+}

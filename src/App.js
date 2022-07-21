@@ -25,18 +25,21 @@ import Ourteam_main from "./Components/Ourteam_main"
 import Index_main from "./Components/Index_main";
 import Crypto_main from "./Components/Crypto_main";
 import Contact_main from "./Components/Contact_main";
+import Portfolio_main from "./Components/Portfolio/Portfolio_main";
+
 
 function App() {
   return (
     <div className="App">
      <BrowserRouter>
-        <Header></Header>
+        <Header />
         <Routes>
           <Route exact path="/" element={<Index_main />} />
 
           <Route exact path="/Ourteam_main" element={<Ourteam_main />} />
           <Route exact path="/Crypto_main" element={<Crypto_main />} />
           <Route exact path="/Contact_main" element={<Contact_main />} />
+          <Route exact path="/Portfolio_main" element={<Portfolio_main />} />
 
         </Routes>
         <Footer />

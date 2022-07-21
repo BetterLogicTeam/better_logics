@@ -4,6 +4,7 @@
     font-family: Comfortaa,Roboto,'Helvetica Neue',Arial,sans-serif;
     width: 100%;
     padding-top: 7rem;
+    /* margin-top: 20px; */
 }
 
 .heading{
@@ -27,6 +28,7 @@
 
     .first_div{
         padding-bottom: 0rem;
+        width: auto;
     }
 
     .heading h2{

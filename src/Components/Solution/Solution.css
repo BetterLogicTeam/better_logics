@@ -65,6 +65,10 @@
 @media screen and (max-width:480px) {
 
 
+    .solution_div{
+        width: auto;
+    }
+
 
     .solution_img img{
         width: 100%;
@@ -79,7 +83,7 @@
         color: #FFFFFF;
         font-weight: 200;
         font-size: 1.6rem;   
-        margin-top: -5rem;
+        margin-top: auto;
     }
 
     .rew{
@@ -92,8 +96,8 @@
     }
 
     .sub-title2 {
-        font-size: 4rem !important;
-        font-weight: 200;
+        font-size: 0rem !important;
+        font-weight: 0;
         opacity: 0 !important;
     }
 

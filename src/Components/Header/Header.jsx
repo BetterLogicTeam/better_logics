@@ -27,7 +27,10 @@ function Header() {
             <Nav.Link className="hxn" href="#features">
             <Link className="text-white" to="/">Home</Link>
             </Nav.Link>
-              <Nav.Link className="hxn" href="#features">Portfolio</Nav.Link>
+            <Nav.Link className="hxn" href="#features">
+                <Link className="text-white"  to="/Portfolio_main">Portfolio</Link>
+                </Nav.Link>
+              {/* <Nav.Link className="hxn" href="#features"></Nav.Link> */}
               <Nav.Link className="hxn" href="#pricing">Our Services</Nav.Link>
               <Nav.Link className="hxn" href="#pricing">
               <Link className="text-white" to="/Ourteam_main">Our Team</Link>
@@ -60,7 +63,7 @@ function Header() {
                 </NavDropdown.Item>
               </NavDropdown> */}
             </Nav>
-            <Button className="btn bn_hxn">Sign in</Button>
+            {/* <Button className="btn bn_hxn">Sign in</Button> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>

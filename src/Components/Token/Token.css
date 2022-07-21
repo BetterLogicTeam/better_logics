@@ -55,10 +55,15 @@
 
 @media screen and (max-width:480px) {
 
+
+    .Token_div{
+        width: auto;
+    }
     
     .Token_sub-title{
-        font-size: 5rem !important;
+        font-size: 0rem !important;
         opacity: 0 !important;
+        font-weight: 0;
     }
 
     .Token_img img{
@@ -72,7 +77,7 @@
     }
 
     .Token_title { 
-        margin-top: -15rem;
+        margin-top: auto;
     }
 
     .Token_four{

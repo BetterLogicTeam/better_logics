@@ -3,7 +3,7 @@ import Contact from './Contact/Contact';
 
 function Contact_main() {
   return (
-    <div>
+    <div style={{marginTop: "100px"}}>
         <Contact />
     </div>
   )

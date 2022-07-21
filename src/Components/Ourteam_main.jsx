@@ -3,7 +3,7 @@ import Ourteam from "./Ourteam/Ourteam"
 
 function Ourteam_main() {
   return (
-    <div>
+    <div style={{marginTop: "70px"}}>
         <Ourteam />
     </div>
   )

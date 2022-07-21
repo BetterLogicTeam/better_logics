@@ -14,12 +14,9 @@ import Faq from "./Faq/Faq";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
 
-
 export default function Index_main() {
-    return (
-      <div>
-       
-       
+  return (
+    <div>
       <First />
       <Crypto />
       <Solution />
@@ -29,11 +26,9 @@ export default function Index_main() {
       <Token />
       <Ourteam />
       {/* <BoardMember /> */}
-      <Advisor />
+      {/* <Advisor /> */}
       <Faq />
       <Contact />
-      
-    
-      </div>
-    );
-  }
+    </div>
+  );
+}

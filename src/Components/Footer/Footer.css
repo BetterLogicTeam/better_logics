@@ -47,6 +47,7 @@
 }
 .footer_five {
   padding-left: 7rem;
+  /* display: flex; */
 }
 
 .second_ulli {
@@ -95,9 +96,8 @@ p:last-child {
     width: auto;
   }
 
-  .footer-logo img {
-    width: 50%;
-    margin-left: 5.4rem;
+  .footer_five{
+    padding-left: 0rem;
   }
 
   .footer-single-widget ul {
@@ -106,14 +106,19 @@ p:last-child {
     line-height: 1.5rem;
   }
 
+  .footer-single-widget h5{
+    text-align: center;
+    margin-left: 0rem;
+  }
+
   .footer-socila-icon {
     text-align: center !important;
     margin-left: 1.7rem;
     margin-bottom: 1.5rem;
   }
 
-  .footer-single {
-    margin-top: -6rem;
+  .footer-single ul{
+    margin-top: -2rem;
     text-align: center !important;
     color: white !important;
     margin-left: 0rem;
@@ -140,8 +145,9 @@ p:last-child {
   }
 
   .footer_logo img {
-    /* text-align: center; */
-    /* align-items: center !important; */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
     margin-left: 7.3rem;
   }
 

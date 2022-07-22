@@ -29,6 +29,7 @@
     .first_div{
         padding-bottom: 0rem;
         width: auto;
+        text-align: center;
     }
 
     .heading h2{
@@ -45,6 +46,9 @@
 
     .btttn a{
         margin-bottom: 2rem;
-        align-items: center;
+        margin-left: 2rem;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 }
